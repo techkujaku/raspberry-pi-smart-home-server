@@ -1,5 +1,7 @@
-# raspberry-pi-smart-home-server
-Self hosted server built around home assistant, OMV and portainer
+# Raspberry Pi Smart Home Server
+Self hosted server running on a raspberry pi 4 featuring Home Assistant, Open Media Vault (OMV) and several applications deployed using docker (Portainer)
+
+dasdasda
 
 #Parts List
 *sdasd
