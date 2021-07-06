@@ -3,15 +3,19 @@ Self hosted server running on a raspberry pi 4 featuring Home Assistant, Open Me
 
 dasdasda
 
-#Parts List
-*sdasd
-*U
+# Parts List
+* Raspberry Pi 4 (4GB)
+* SD Card and sd card reader
+* Kingston A400 M.2 Sata SSD
+* <a href="https://my.cytron.io/p-argon1-md2-case-expansion-for-sata-storage"> Argon One Case  </a>
+* <a href="https://my.cytron.io/Argon40/p-18w-5v-3p5a-usb-c-power-adapter-uk"> Argon40 18W 5V 3.5A USB-C Power Adapter </a>
+  
 
 # Tutorial Overview
 * Pi Setup
 * Hardware Assembly
 * Pi Configuration
-* Boot from USB and SD card to SSD migration (Optional)
+* SD card to SSD migration and boot from USB (Optional)
 * OMV Setup
 * Portainer Setup
 * Home Assistant Setup
@@ -23,7 +27,7 @@ dasdasda
 
 # Pi Configuration
 
-# Boot from USB and SD card to SSD migration (Optional)
+# SD card to SSD migration and boot from USB (Optional)
 
 # OMV Setup
 
@@ -31,6 +35,6 @@ dasdasda
 
 # Home Assistant Setup
 
-# Wrap up
+# Wrap up and future projects
 
 
