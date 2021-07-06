@@ -1,7 +1,7 @@
 # Raspberry Pi Smart Home Server
 Self hosted server running on a raspberry pi 4 featuring Home Assistant, Open Media Vault (OMV) and several applications deployed using docker (Portainer)
 
-dasdasda
+This project is probably overdone by many people but what i see out to do here is to provide a practical working solution that you use at home. My server has been running for several months now prior to the release of this tutorial and i have been addtion more applications to it since. This tutorial will serve as the first of many in a series of how my smart home server is setup while also showcasing the many applications running on it.  
 
 # Parts List
 * Raspberry Pi 4 (4GB)
