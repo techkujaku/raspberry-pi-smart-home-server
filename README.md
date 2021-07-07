@@ -17,7 +17,7 @@ This project is probably overdone by many people but what i see out to do here i
 * Pi Setup
 * Hardware Assembly
 * Pi Configuration
-* SD card to SSD migration and boot from USB (Optional)
+* Copy SD card to SSD and boot from USB (Optional)
 * OMV Setup
 * Portainer Setup
 * Home Assistant Setup
@@ -59,7 +59,7 @@ Always ensure your pi is updated first before proceeding. Use the command:
 sudo apt update && sudo apt full-upgrade && sudo rpi-update && sudo reboot
 ```
 
-# SD card to SSD migration and boot from USB (Optional)
+# Copy SD card to SSD and boot from USB (Optional)
 This step only applies if you would like to run the pi from the SSD or from a USB. We need to update the eeprom of the pi with:
 ```
 sudo rpi-eeprom-update -a && sudo reboot
