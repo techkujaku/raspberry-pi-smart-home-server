@@ -41,11 +41,56 @@ The default password is raspberry
 Congratulations! you have successfully connected to your pi via SSH
 
 
-# Hardware Assembly
+# Hardware Assembly and Argon One case setup (Optional)
+This step only applies if you are using the argon one case. Any other case is find as long as you have good cooling. The assembly is straight forward so just follow the instruction manual.. Once assembled you can install additional fan control scripts. SSH into your pi just like the previous steps and type the command:
+```
+curl https://download.argon40.com/argon1.sh | bash
+```
+Once that is done you can configure the fan settings with the command:
+```
+argonone-config
+```
 
 # Pi Configuration
+Always ensure your pi is updated first before proceeding. Use the command:
+```
+sudo apt update && sudo apt full-upgrade && sudo reboot
+```
 
 # SD card to SSD migration and boot from USB (Optional)
+This step only applies if you would like to run the pi from the SSD or from a USB. We need to update the eeprom of the pi with:
+```
+sudo rpi-eeprom-update -a && sudo reboot
+```
+TO CLONE SD card to SSD:
+```
+sudo apt install git
+git clone https://github.com/billw2/rpi-clone.git 
+cd rpi-clone
+sudo cp rpi-clone rpi-clone-setup /usr/local/sbin
+sudo rpi-clone sda -f2
+```
+```
+sudo raspi-config
+```
+got to advance options
+
+Bootloader Version
+
+E1 Latest use the latest version boot rom software. when prompt reset boot rom to defaults select no
+
+go tto advance options
+
+select boot order
+
+B1 usb boot
+
+finish
+
+shutdown
+
+remove sd card and boot up from ssd
+
 
 # OMV Setup
 
