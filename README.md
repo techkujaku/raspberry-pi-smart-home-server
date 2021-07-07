@@ -9,6 +9,8 @@ This project is probably overdone by many people but what i see out to do here i
 * Kingston A400 M.2 Sata SSD
 * <a href="https://my.cytron.io/p-argon1-md2-case-expansion-for-sata-storage"> Argon One Case  </a>
 * <a href="https://my.cytron.io/Argon40/p-18w-5v-3p5a-usb-c-power-adapter-uk"> Argon40 18W 5V 3.5A USB-C Power Adapter </a>
+* Network Router
+* Windows device
   
 
 # Tutorial Overview
