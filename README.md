@@ -37,6 +37,7 @@ ssh pi@the ip address of the pi
 ```
 
 The default password is raspberry
+
 Congratulations! you have successfully connected to your pi via SSH
 
 
