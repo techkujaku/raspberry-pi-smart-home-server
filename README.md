@@ -1,7 +1,7 @@
 # Raspberry Pi Smart Home Server
-Self hosted server running on a raspberry pi 4 featuring Home Assistant, Open Media Vault (OMV) and several applications deployed using docker (Portainer)
+Self hosted server running on a raspberry pi 4 with pi os lite. The server runs Home Assistant, Open Media Vault (OMV) and several other applications deployed using docker (Portainer)
 
-This project is probably overdone by many people but what i see out to do here is to provide a practical working solution that you use at home. My server has been running for several months now prior to the release of this tutorial and i have been adding more applications to it since. This tutorial will serve as the first of many in a series of how my smart home server is setup while also showcasing the many applications running on it.  
+This project is probably overdone by many people but what i want to do here is to provide a practical working solution that you use at home. My server has been running for several months now prior to the release of this tutorial and i have been adding more applications to it since. This tutorial will serve as the first of many in a series of how my smart home server is setup while also showcasing the many applications running on it.  
 
 # Parts List
 * Raspberry Pi 4 (4GB) -
@@ -10,7 +10,7 @@ This project is probably overdone by many people but what i see out to do here i
 * <a href="https://my.cytron.io/p-argon1-md2-case-expansion-for-sata-storage"> Argon One Case  </a>
 * <a href="https://my.cytron.io/Argon40/p-18w-5v-3p5a-usb-c-power-adapter-uk"> Argon40 18W 5V 3.5A USB-C Power Adapter </a>
 * Network Router
-* Windows device
+* Windows device - Mac and Linux can also be used but instead each respective OS has their own version of the windows command prompt. Mac uses terminal while Linux uses shell. The commands listed here are applicable for any OS.
   
 
 # Tutorial Overview
