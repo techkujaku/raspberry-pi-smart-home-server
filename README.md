@@ -44,7 +44,7 @@ Congratulations! you have successfully connected to your pi via SSH
 
 
 # Hardware Assembly and Argon One case setup (Optional)
-This step only applies if you are using the argon one case. Any other case is find as long as you have good cooling. The assembly is straight forward so just follow the instruction manual.. Once assembled you can install additional fan control scripts. SSH into your pi just like the previous steps and type the command:
+This step only applies if you are using the argon one case. Any other case is fine as long as you have good cooling especially if you want to run the pi all day long. The assembly of the case is straight forward so just follow the instruction manual.. Once assembled let's install the fan control script. SSH into your pi just like the previous steps and type the command:
 ```
 curl https://download.argon40.com/argon1.sh | bash
 ```
@@ -56,7 +56,7 @@ argonone-config
 # Pi Configuration
 Always ensure your pi is updated first before proceeding. Use the command:
 ```
-sudo apt update && sudo apt full-upgrade && sudo reboot
+sudo apt update && sudo apt full-upgrade && sudo rpi-update && sudo reboot
 ```
 
 # SD card to SSD migration and boot from USB (Optional)
