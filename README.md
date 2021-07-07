@@ -75,7 +75,7 @@ sudo rpi-clone sda -f2
 ```
 sudo raspi-config
 ```
-got to advance options
+go to advance options
 
 Bootloader Version
 
