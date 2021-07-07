@@ -65,12 +65,20 @@ This step only applies if you would like to run the pi from the SSD or from a US
 sudo rpi-eeprom-update -a && sudo reboot
 ```
 TO CLONE SD card to SSD:
+
+Log on to the RPi and at a command line type
+```
+lsblk -f
+```
+Which checks if the SD Card is "accepted" and also which name it's assigned to. Could be "sda", "sdb" ......
+replace XXX which whichever the drive is connected
+
 ```
 sudo apt install git
 git clone https://github.com/billw2/rpi-clone.git 
 cd rpi-clone
 sudo cp rpi-clone rpi-clone-setup /usr/local/sbin
-sudo rpi-clone sda -f2
+sudo rpi-clone XXX -f2
 ```
 ```
 sudo raspi-config
