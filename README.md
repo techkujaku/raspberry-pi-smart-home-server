@@ -70,8 +70,11 @@ Log on to the RPi and at a command line type
 ```
 lsblk -f
 ```
+AS you can see my SSD is at sda
+![lsblk](https://user-images.githubusercontent.com/87014174/125090083-8ce58100-e101-11eb-8db6-cd9500e9f6d2.JPG)
+
 Which checks if the SD Card is "accepted" and also which name it's assigned to. Could be "sda", "sdb" ......
-replace XXX which whichever the drive is connected
+replace XXX which whichever the drive is connected. For my case my SSD is at sda so i will replace xxx with sda
 
 ```
 sudo apt install git
@@ -93,7 +96,7 @@ go tto advance options
 
 select boot order
 
-B1 usb boot
+B1 usb boot - in case you want to boot from an sd card instead in the future
 
 finish
 
@@ -103,6 +106,18 @@ remove sd card and boot up from ssd
 
 
 # OMV Setup
+SSH into your pi again and type the command:
+```
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+```
+
+The command is based on the instrutions here
+https://github.com/OpenMediaVault-Plugin-Developers/docs/blob/master/Adden-B-Installing_OMV5_on_an%20R-PI.pdf
+
+once it's done go to your browser and type in the ip address of your raspberry pi
+the default login and password is
+admin
+openmediavault
 
 # Portainer Setup
 
