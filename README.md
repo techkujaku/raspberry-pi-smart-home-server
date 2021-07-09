@@ -119,7 +119,13 @@ the default login and password is
 admin
 openmediavault
 
+change password
+change your timezone
+setup static ip
+
 # Portainer Setup
+refer to https://www.youtube.com/watch?v=gG9qFxedsHw&t=10s
+Click on OMV-Extras > Docker
 
 # Home Assistant Setup
 
