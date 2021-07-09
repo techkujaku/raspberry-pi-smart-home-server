@@ -112,15 +112,21 @@ wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/
 ```
 
 The command is based on the instrutions here
+
 https://github.com/OpenMediaVault-Plugin-Developers/docs/blob/master/Adden-B-Installing_OMV5_on_an%20R-PI.pdf
 
 once it's done go to your browser and type in the ip address of your raspberry pi
+
 the default login and password is
+
 admin
+
 openmediavault
 
 change password
+
 change your timezone
+
 setup static ip
 
 # Portainer Setup
