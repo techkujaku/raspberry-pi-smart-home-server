@@ -156,6 +156,9 @@ x.x.x-x is the latest version number of this sharerootfs plugin
 
 5 Click on + Install button
 
+next install openmediavault-resetperms
+
+
 6 Once done, Navigate to Access Rights Management ->
 
 
