@@ -224,7 +224,7 @@ wget -q -O - https://install.hacs.xyz | bash -
 2) Product review sonoff s26 and how to connect
 3) Product review sonoff mini and how to connect
 4) home-assistant lovelace vertical, task- scheduler
-5) Mounting USB and Using FTP with mobile devices
+5) Mounting USB and Using FTP with mobile devices, Android apps Cx- File Explorer
 6) Qbittorent
 7) Plex-Server
 8) VLC and home assistant
@@ -233,11 +233,13 @@ wget -q -O - https://install.hacs.xyz | bash -
 11) Node-red, IFTT, Dibea
 12) Node-red web scrapping
 13) MQTT and node-red
-14) Broadlink intergration with home-assistant
-15) Openvpn remote access to home assistant
-16) pi-hole
-17) mealie
-18) Owncloud hosting
-19) Webcam and home assistant
-20) Minecraft server 
+14) Broadlink RM4C mini product review and demo
+15) Broadlink intergration with home-assistant
+16) Openvpn remote access to home assistant
+17) pi-hole
+18) mealie
+19) Owncloud hosting
+20) Webcam and home assistant
+21) Minecraft server 
+22) Android apps juiceSSH
 
