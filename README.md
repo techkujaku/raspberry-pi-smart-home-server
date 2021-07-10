@@ -130,13 +130,40 @@ disable auto logout
 click on web administrator password tab and change password
 change password
 
-
 go to date&time change time zone
 click on network and set static ip
+
+reboot and wait. use cmd to ping the ip
+
+log into new ip: new port number
+
+Setup shared folders and FTP
+
+SSH your server and become root.
+
+nano /etc/default/openmediavault
+
+Scroll through and look for "OMV_SHAREDFOLDERS_DIR_ENABLED="NO" , and change NO to YES. If that line is nowhere to be found, then just add it at the end.
+
+Cntrl X, then Y, Enter to save.
+
+Once back at the prompt: sudo omv-salt stage run prepare
+
+When that completes: sudo omv-salt deploy run systemd
+
+When that completes, sudo reboot.
 
 # Portainer Setup
 refer to https://www.youtube.com/watch?v=gG9qFxedsHw&t=10s
 Click on OMV-Extras > Docker
+
+got to pi ip : 9000 and log in to portainer. select docker
+
+
+
+
+
+
 
 # Home Assistant Setup
 
