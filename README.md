@@ -123,11 +123,16 @@ admin
 
 openmediavault
 
+general settings
+change port from 80 to something else in case you're using nginx proxy manager
+disable auto logout
+
+click on web administrator password tab and change password
 change password
 
-change your timezone
 
-setup static ip
+go to date&time change time zone
+click on network and set static ip
 
 # Portainer Setup
 refer to https://www.youtube.com/watch?v=gG9qFxedsHw&t=10s
