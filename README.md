@@ -220,5 +220,19 @@ wget -q -O - https://install.hacs.xyz | bash -
 
 
 # Wrap up and future projects
-
+1) Sonoff intergration with home-assistant
+2) home-assistant lovelace vertical, task- scheduler
+3) Mounting USB and Using FTP with mobile devices
+4) Qbittorent
+5) Plex-Server
+6) VLC and home assistant
+7) Node-red and home assistant
+8) Node-red, google assistant and home assistant
+9) Node-red web scrapping
+10) MQTT and node-red
+11) Broadlink intergration with home-assistant
+12) Openvpn remote access to home assistant
+13) pi-hole
+14) mealie
+15) Webcam and home assistant 
 
