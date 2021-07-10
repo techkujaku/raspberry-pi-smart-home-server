@@ -139,6 +139,32 @@ log into new ip: new port number
 
 Setup shared folders and FTP
 
+
+https://dannyda.com/2020/08/04/how-to-create-shared-folder-in-root-directory-folder-hard-drive-partition-in-openmediavault-omv/
+ Follow the following guide to install omv-extras first
+
+How to: Install omv-extras for Open Media Vault (OMV)
+
+2 Navigate to System -> Plugins (Ignore the rectangle around OMV-Extras)
+
+OMV - Menu - System
+OMV – Menu – System
+3 Find the Plugin with name openmediavault-sharerootfs x.x.x-x
+x.x.x-x is the latest version number of this sharerootfs plugin
+
+4 Check it
+
+5 Click on + Install button
+
+6 Once done, Navigate to Access Rights Management ->
+
+
+
+click on shared folders > add > set permission to everyone
+click on created folder > priveledges and select permission group
+
+go to FTP enable ftp and add the shared folder
+
 SSH your server and become root.
 
 nano /etc/default/openmediavault
