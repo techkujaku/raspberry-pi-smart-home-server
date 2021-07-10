@@ -168,19 +168,9 @@ click on created folder > priveledges and select permission group
 
 go to FTP enable ftp and add the shared folder
 
-SSH your server and become root.
+add users into shared folder
 
-nano /etc/default/openmediavault
 
-Scroll through and look for "OMV_SHAREDFOLDERS_DIR_ENABLED="NO" , and change NO to YES. If that line is nowhere to be found, then just add it at the end.
-
-Cntrl X, then Y, Enter to save.
-
-Once back at the prompt: sudo omv-salt stage run prepare
-
-When that completes: sudo omv-salt deploy run systemd
-
-When that completes, sudo reboot.
 
 # Portainer Setup
 refer to https://www.youtube.com/watch?v=gG9qFxedsHw&t=10s
@@ -197,6 +187,10 @@ got to pi ip : 9000 and log in to portainer. select docker
 
 
 # Home Assistant Setup
+
+go to portainers click on bash enter command
+wget -q -O - https://install.hacs.xyz | bash -
+
 
 # Wrap up and future projects
 
