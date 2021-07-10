@@ -224,7 +224,7 @@ wget -q -O - https://install.hacs.xyz | bash -
 2) Product review sonoff s26 and how to connect
 3) Product review sonoff mini and how to connect
 4) home-assistant lovelace vertical, task- scheduler
-5) Mounting USB and Using FTP with mobile devices, Android apps Cx- File Explorer
+5) Mounting USB and Using FTP on windows and mobile devices, Android apps Cx- File Explorer
 6) Qbittorent
 7) Plex-Server
 8) VLC and home assistant
@@ -239,7 +239,8 @@ wget -q -O - https://install.hacs.xyz | bash -
 17) pi-hole
 18) mealie
 19) Owncloud hosting
-20) Webcam and home assistant
-21) Minecraft server 
-22) Android apps juiceSSH
+20) ESP32 webcam
+21) Webcam and home assistant
+22) Minecraft server 
+23) Android apps juiceSSH
 
