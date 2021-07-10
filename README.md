@@ -70,7 +70,7 @@ Log on to the RPi and at a command line type
 ```
 lsblk -f
 ```
-AS you can see my SSD is at sda
+As you can see my SSD is at sda
 ![lsblk](https://user-images.githubusercontent.com/87014174/125090083-8ce58100-e101-11eb-8db6-cd9500e9f6d2.JPG)
 
 Which checks if the SD Card is "accepted" and also which name it's assigned to. Could be "sda", "sdb" ......
