@@ -155,7 +155,9 @@ When that completes, sudo reboot.
 
 # Portainer Setup
 refer to https://www.youtube.com/watch?v=gG9qFxedsHw&t=10s
-Click on OMV-Extras > Docker
+Click on OMV-Extras > Docker > Install
+
+Click on Portainer > Install
 
 got to pi ip : 9000 and log in to portainer. select docker
 
