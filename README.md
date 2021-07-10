@@ -170,6 +170,33 @@ go to FTP enable ftp and add the shared folder
 
 add users into shared folder
 
+#Overclocking Raspberry pi 4
+```
+sudo nano /boot/config.txt
+```
+
+Scroll down to the section marked:
+```
+#uncomment to overclock the arm. 700 MHz is the default.
+#arm_freq=800
+```
+Change the config settings to:
+```
+#uncomment to overclock the arm. 700 MHz is the default.
+over_voltage=2
+arm_freq=1750
+```
+
+```
+sudo reboot
+```
+
+#Increase GPU memory
+
+go back to raspi-connfig
+
+increase ram size
+
 
 
 # Portainer Setup
