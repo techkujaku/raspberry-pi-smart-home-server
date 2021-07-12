@@ -231,21 +231,31 @@ wget -q -O - https://install.hacs.xyz | bash -
 9) Node-red and home assistant
 10) Node-red, google assistant and home assistant
 11) Node-red, IFTT, Dibea
-12) Node-red web scrapping
-13) MQTT and node-red
-14) Broadlink RM4C mini product review and demo
-15) Broadlink intergration with home-assistant
-16) Openvpn remote access to home assistant
-17) pi-hole
-18) mealie
-19) Owncloud hosting
-20) ESP32 webcam
-21) MotionEyeOS and home assistant
-22) Android apps juiceSSH
-23) Raspicast with pi-zero W. Chromecast Alternative
-24) Twister OS, Retropie, Dosbox
-25) PiKVM + WakeONLan
-26) Excel + macro
-27) Powershell tutorials
+12) Node-red web scrapping covid cases
+13) web scrapping stocks, youtube subs, home assistant
+14) MQTT and node-red
+15) Broadlink RM4C mini product review and demo
+16) Broadlink intergration with home-assistant
+17) Openvpn remote access to home assistant
+18) pi-hole
+19) Mealie
+20) Owncloud hosting
+21) ESP32 webcam
+22) MotionEyeOS and home assistant
+23) Android apps juiceSSH
+24) Raspicast with pi-zero W. Chromecast Alternative
+25) Twister OS, Retropie, Dosbox
+26) PiKVM + WakeONLan
+27) Excel macro recorder
+28) Powershell tutorials
+29) Powershell POSHGUI
+30) Powershell automation
+31) Powershell + batch file
+32) Powershell object and data manipulation
+33) ---
+34) ---
+35) ---
+36) ---
+37) ---
 
 
