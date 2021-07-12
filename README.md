@@ -223,11 +223,11 @@ wget -q -O - https://install.hacs.xyz | bash -
 1) Sonoff intergration with home-assistant
 2) Product review sonoff s26 and how to connect
 3) Product review sonoff mini and how to connect
-4) home-assistant lovelace vertical, task- scheduler
+4) Home Assistant UI Dashboard creation
 5) Mounting USB and Using FTP on windows and mobile devices, Android apps Cx- File Explorer
-6) Qbittorent
+6) VLC and home assistant
 7) Plex-Server
-8) VLC and home assistant
+8) Qbittorent 
 9) Node-red and home assistant
 10) Node-red, google assistant and home assistant
 11) Node-red, IFTT, Dibea
@@ -240,7 +240,9 @@ wget -q -O - https://install.hacs.xyz | bash -
 18) mealie
 19) Owncloud hosting
 20) ESP32 webcam
-21) Webcam and home assistant
-22) Minecraft server 
-23) Android apps juiceSSH
+21) MotionEyeOS and home assistant
+22) Android apps juiceSSH
+23) Raspicast with pi-zero W. Chromecast Alternative
+24) Twister OS, Retropie, Dosbox
+25) PiKVM + WakeONLan
 
