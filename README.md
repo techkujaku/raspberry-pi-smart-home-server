@@ -245,4 +245,7 @@ wget -q -O - https://install.hacs.xyz | bash -
 23) Raspicast with pi-zero W. Chromecast Alternative
 24) Twister OS, Retropie, Dosbox
 25) PiKVM + WakeONLan
+26) Excel + macro
+27) Powershell tutorials
+
 
