@@ -14,9 +14,9 @@ This project is probably overdone by many people but what i want to do here is t
   
 
 # Tutorial Overview
-* <a href"https://github.com/techkujaku/raspberry-pi-smart-home-server#Pi-Setup">Pi Setup</a>
-* <a href"https://github.com/techkujaku/raspberry-pi-smart-home-server#Hardware-Assembly"> Hardware Assembly
-* <a href"https://github.com/techkujaku/raspberry-pi-smart-home-server#Pi-Configuration">Pi Configuration
+* <a href="https://github.com/techkujaku/raspberry-pi-smart-home-server#Pi-Setup">Pi Setup</a>
+* <a href="https://github.com/techkujaku/raspberry-pi-smart-home-server#Hardware-Assembly"> Hardware Assembly </a>
+* <a href="https://github.com/techkujaku/raspberry-pi-smart-home-server#Pi-Configuration">Pi Configuration </a>
 * Copy SD card to SSD and boot from USB (Optional)
 * OMV Setup
 * Portainer Setup
